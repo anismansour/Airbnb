@@ -15,7 +15,7 @@ function Banner() {
           className="banner_searchButton"
           variant="outlined"
         >
-          search dates
+          {showSearch ? 'Hide' : 'Search dates'}
         </Button>
       </div>
       <div className="banner_info">
