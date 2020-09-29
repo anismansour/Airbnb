@@ -1,0 +1,46 @@
+.banner {
+  background: url('https://cortneybishop.com/content/uploads/2020/08/living-4-2000x1335.jpg')
+    center center;
+  height: 70vh;
+
+  position: relative;
+  background-repeat: repeat-y;
+}
+.banner_info {
+  background-color: black;
+  color: white;
+  padding-top: 25vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  width: 300px;
+}
+
+.banner_search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner_searchButton {
+  background-color: white !important ;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+}
+
+.banner_info > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.banner_info > h5 {
+  margin-top: 10px;
+}
+
+.banner_info > button:hover {
+  background-color: white;
+  color: #ff7779;
+}
