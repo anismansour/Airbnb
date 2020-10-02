@@ -4,7 +4,7 @@ import './Css/Footer.css';
 function Footer() {
   return (
     <div className="footer">
-      <p>footer</p>
+      <p>© 2020 Anis Mansour </p>
     </div>
   );
 }
